@@ -66,12 +66,13 @@ const WeatherApp: React.FC = () => {
     }
   
     if (persistedWeather) {
-      setWeather(persistedWeather); // restore from persisted data
-    } else {
-      getWeather(persistedCity);   // fetch
+      setWeather(persistedWeather); // restore if present
+    } else if (persistedCity) {
+      getWeather(persistedCity);   // fetch is not present
     }
   }, []);
 
+  // Set dark mode depending on isDarkMode
   const themeStyles = isDarkMode ? darkStyles : lightStyles;
 
   return (
@@ -127,7 +128,6 @@ const WeatherApp: React.FC = () => {
   );
 };
 
-// Wrap the app in Redux and Persist providers
 export default function App() {
   return (
     <Provider store={store}>
