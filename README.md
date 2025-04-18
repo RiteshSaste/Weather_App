@@ -46,6 +46,9 @@ Then, and every time you update your native dependencies, run:
 
 ```sh
 bundle exec pod install
+
+# Or use the npx command
+npx pod-install
 ```
 
 For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
@@ -77,36 +80,5 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-
-# # Run instructions for Android:
-    • Have an Android emulator running (quickest way to get started), or a device connected.
-    • cd "/Users/sandeep/Downloads/RPFiles/Submissions/Weather_App" && npx react-native run-android
-  
-# # Run instructions for iOS:
-    • cd "/Users/sandeep/Downloads/RPFiles/Submissions/Weather_App"
-    
-    • npx react-native run-ios
-    - or -
-    • Open Weather_App/ios/Weather_App.xcodeproj in Xcode or run "xed -b ios"
-    • Hit the Run button
-    
-# # Run instructions for macOS:
-    • See https://aka.ms/ReactNativeGuideMacOS for the latest up-to-date instructions.
+# Application readme file:
+To read more about the Weather App: go to the [README_extended.md](./README_extended.md)
